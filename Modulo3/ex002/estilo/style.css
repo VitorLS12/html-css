@@ -66,14 +66,14 @@ section.img{
 
 } 
 section#img1{
-    background-image: url("../imagens/roses-7285917_960_720.jpg");
+    background-image: url("../imagens/background001.jpg");
     background-position: right center;
     background-size: cover;
     
 }
 section#img2{
     background-image: url("../imagens/sutterlin-1362879_960_720.webp");
-    background-position:center center;
+    background-position:right center;
     background-size: cover;
 }
 section.img>p{
