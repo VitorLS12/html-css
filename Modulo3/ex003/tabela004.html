@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas1'</title>
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+        }
+        td{
+            padding: 10px;
+            width: 30px;
+            border: 1px solid black;
+        }
+        div#contain{
+            overflow-x: auto;
+            /* Usar o princípio da tag "overflow" para aplicar barra de rolagem somente na tabela .*/
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>
+        Tabelas Responsivas
+    </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt veritatis deleniti numquam accusamus optio velit qui iste voluptas a, non excepturi suscipit, eos fugiat maiores sapiente culpa similique fugit repellendus?</p>
+    <div id="contain">
+        <table>
+            <thead>
+                <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam dolore atque aliquid assumenda, enim inventore eius. Autem at vel nam expedita, placeat fugit sed architecto, velit quidem quos modi cumque?</td>
+            </thead>
+            <tbody>
+                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae alias harum molestiae totam, deserunt eveniet accusantium illum optio earum voluptas id repellendus at vero quam quaerat provident non vitae a?</td>
+            </tbody>
+            <tfoot>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nostrum ut quaerat eum aliquid similique, commodi ad qui a provident perspiciatis, ratione quas ullam, praesentium iusto. Optio est commodi ullam?</td>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
